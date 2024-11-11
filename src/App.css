@@ -36,7 +36,7 @@ body {
   font-size: 1.8rem;
 }
 
-/* Filter Styles */
+
 .filter-container {
   display: flex;
   justify-content: center;
@@ -64,7 +64,7 @@ body {
   opacity: 0.8;
 }
 
-/* Add Task Styles */
+
 .add-task-form {
   display: flex;
   padding: 1rem;
@@ -94,7 +94,7 @@ body {
   background-color: #27ae60;
 }
 
-/* Task List Styles */
+
 .task-list {
   max-height: 400px;
 
@@ -176,11 +176,11 @@ body {
 }
 
 .task-btn-save {
-  background-color: #28a745; /* Green for save */
+  background-color: #28a745; 
   color: white;
 }
 
 .task-btn-cancel {
-  background-color: #dc3545; /* Red for cancel */
+  background-color: #dc3545; 
   color: white;
 }

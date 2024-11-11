@@ -15,7 +15,7 @@ const Task = ({ task }) => {
   const handleEdit = () => {
     if (name.trim() && description.trim()) {
       dispatch(editTask({ ...task, name, description }));
-      setIsEditing(false); // Exit edit mode
+      setIsEditing(false); 
     }
   };
 

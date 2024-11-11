@@ -9,7 +9,7 @@ const ListTask = () => {
   const filteredTasks = tasks.filter((task) => {
     if (filter === 'done') return task.isDone;
     if (filter === 'not_done') return !task.isDone;
-    return true; // 'all'
+    return true; 
   });
 
   return (
